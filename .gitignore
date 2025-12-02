@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific - sensitive data
+cookies.json
+.env
+*.session
+
+# Downloaded content (large files)
+raw_downloads/
+extracted_frames/
+pending_upscale/
+final_dataset/
+
+# Model files (large)
+*.pt
+*.pth
+*.onnx
+
+# Logs
+*.log
+pipeline.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots
+*.png
