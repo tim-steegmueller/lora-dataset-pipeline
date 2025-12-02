@@ -22,13 +22,27 @@ cookies.json
 # Downloaded content (large files)
 raw_downloads/
 extracted_frames/
+extracted_frames_test/
 pending_upscale/
 final_dataset/
+upscaled_*/
+upscaled_test/
+
+# Real-ESRGAN binaries (large)
+realesrgan-bin/
+realesrgan-macos.zip
 
 # Model files (large)
 *.pt
 *.pth
 *.onnx
+*.bin
+*.param
+
+# Test files
+test_*.py
+create_test_video.py
+upscale_all.py
 
 # Logs
 *.log
@@ -40,3 +54,6 @@ Thumbs.db
 
 # Screenshots
 *.png
+
+# Videos
+*.mp4
